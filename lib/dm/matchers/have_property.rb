@@ -1,4 +1,3 @@
-require 'debugger'
 RSpec::Matchers.define :have_property do |property|
 
   chain :of_type do |type|
